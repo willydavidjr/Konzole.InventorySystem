@@ -229,6 +229,26 @@
     <Compile Include="Migrations\201706171413252_AddRolePermissionAndUserForLogin.Designer.cs">
       <DependentUpon>201706171413252_AddRolePermissionAndUserForLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706171421060_AddedPasswordOnUser.cs" />
+    <Compile Include="Migrations\201706171421060_AddedPasswordOnUser.Designer.cs">
+      <DependentUpon>201706171421060_AddedPasswordOnUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706171435346_ChangeUserPropertiesForUserName.cs" />
+    <Compile Include="Migrations\201706171435346_ChangeUserPropertiesForUserName.Designer.cs">
+      <DependentUpon>201706171435346_ChangeUserPropertiesForUserName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706171458282_AddingAdminInUser.cs" />
+    <Compile Include="Migrations\201706171458282_AddingAdminInUser.Designer.cs">
+      <DependentUpon>201706171458282_AddingAdminInUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706171513480_AddedNullableOnProperties.cs" />
+    <Compile Include="Migrations\201706171513480_AddedNullableOnProperties.Designer.cs">
+      <DependentUpon>201706171513480_AddedNullableOnProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706171514554_AddAdminInUser.cs" />
+    <Compile Include="Migrations\201706171514554_AddAdminInUser.Designer.cs">
+      <DependentUpon>201706171514554_AddAdminInUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -386,6 +406,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706171413252_AddRolePermissionAndUserForLogin.resx">
       <DependentUpon>201706171413252_AddRolePermissionAndUserForLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706171421060_AddedPasswordOnUser.resx">
+      <DependentUpon>201706171421060_AddedPasswordOnUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706171435346_ChangeUserPropertiesForUserName.resx">
+      <DependentUpon>201706171435346_ChangeUserPropertiesForUserName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706171458282_AddingAdminInUser.resx">
+      <DependentUpon>201706171458282_AddingAdminInUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706171513480_AddedNullableOnProperties.resx">
+      <DependentUpon>201706171513480_AddedNullableOnProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706171514554_AddAdminInUser.resx">
+      <DependentUpon>201706171514554_AddAdminInUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -1,5 +1,5 @@
 ﻿@using Konzole.InventorySystem.Web.Models
-@model LoginViewModel
+@model User
 @{
 
     Layout = null;
@@ -110,13 +110,19 @@
                                 @Html.ValidationSummary(true)
                             </small>
                                 <fieldset>
-                                    
+                                    @{ 
+                                        var invalidAccount = (string)TempData["InvalidAccount"];
+                                    }
                                     <div class="form-group">
                                         <div class="inner-addon left-addon">
                                             <i class="glyphicon glyphicon-user"></i>
-                                            @Html.TextBoxFor(model => model.Email, new { @class = "form-control", @placeholder = "Email", @required = "required" })
+                                            @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", @placeholder = "Username", @required = "required" })
                                         </div>
-                                        <small style="color:#f00;">@Html.ValidationMessageFor(model => model.Email)</small>
+                                        @if (invalidAccount != null)
+                                        {
+                                            <small style="color:#f00;">@invalidAccount</small>
+                                        }
+                                        <small style="color:#f00;">@Html.ValidationMessageFor(model => model.UserName)</small>
                                     </div>
                                     <div class="form-group">
                                         <div class="inner-addon left-addon">
