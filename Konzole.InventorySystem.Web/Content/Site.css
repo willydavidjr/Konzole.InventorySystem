@@ -1,0 +1,1055 @@
+﻿/* 
+* SPi Global Career Portal Website v.1.0;
+* Author: Kestrel;
+* Manila Philippines
+*/
+
+
+
+a:focus, a:hover {
+	text-decoration: none;
+	color: black;
+}
+.main-container {
+  max-width: 1366px;
+  width: 100%;
+  padding: 0; 
+  margin: 0 auto;
+}
+
+/*== Header Styles Start ==*/
+
+.main-nav {
+  margin: 0;
+  min-height: 105px;
+  border-radius: 0;
+  display: block;
+  z-index: 99;
+  position: relative;
+  width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: White;
+}
+
+#logo {
+	margin-left: 81px;
+}
+
+#logo img {
+	margin-top: 4px;
+	display: block;
+	position: relative;
+}
+
+.main-nav ul>li>a:focus, .main-nav ul>li>a:hover {
+	text-decoration: none;
+	background-color: #fff;
+}
+
+.first-layer-header-div{
+	min-height: 45px;
+	/* position: relative; */
+	background-color: #1C9A48;
+
+	padding-right: 100px;
+}
+
+@media screen and (max-width: 448px) 
+{
+    .ddl-country
+    {
+        font-size: x-small;
+    }
+#imgFlag
+{
+    height: 20px;
+}
+    .first-layer-header-div{
+padding-right: 0px;
+    }
+}
+
+.third-layer-header-div{
+	background-color: #000;
+	opacity: 0.6;
+	padding-right: 100px;
+}
+
+.third-layer-header-div a.navbar-link{
+	color: #fff;
+	font-family: "QuireSansW04-Regular";
+	font-size: 15px;
+	padding: 10px 20px;
+}
+
+.third-layer-header-div a:hover {
+    color: #000;
+}
+
+.banner-img { width: 100%; }
+
+.banner.row { 
+	border-bottom: 17px solid #1c9a48;
+	margin: 0;
+	position: relative;
+}
+
+.search-block {
+	position: absolute;
+  right: 90px;
+  top: 50px;
+  bottom: 0;
+}
+
+.search-block > p {
+	font-family: 'QuireSansW04-ExtraLight';
+	font-size: 50px;
+	color: #fff;
+}
+
+.search-block input#searchjob, .search-block input {
+	font-family: 'QuireSansW04-ExtraLight';
+	font-size: 16px;
+	color: #fff;
+	    background-color: #82C556;
+    background: url(../img/magnifying.png) #82c556 no-repeat; 
+	display: block;
+	border: 0;
+	border-radius: 0;
+	width: 410px;
+  background-position: 365px 4px;
+  padding: 9.2px;
+ /* padding: 11px 9.2px 8.5px 9.2px */
+}
+.search-block select {
+	border: 0;
+	border-radius: 0;
+	background: #1c9a48;
+	height: 40px;
+	font-size: 16px;
+	margin-left: -4px;
+	color: #fff;
+	font-family: 'QuireSansW04-ExtraLight';
+}
+
+.search-block select option {
+	color: #fff;
+	font-family: 'QuireSansW04-ExtraLight';
+}
+
+.search-block input::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.search-block input:focus 
+{
+        /* border-color: #1c9a48; */
+    outline: 0;
+    /* -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(28, 154, 72); */
+    /* box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(28, 154, 72); */
+   
+}
+
+.banner.row .col-md-12 { 
+	padding: 0; 
+}
+
+#horizontal-bar-jumbo{
+	height: 10px;
+	background-color: #1C9A48;
+}
+
+.login-btn {
+	font-family: 'QuireSansW04-Bold';
+	font-size: 16px;
+	color: #82c556;
+	text-transform: uppercase;
+	padding: 7px 14px 7px 16px;
+	border: 2px solid #82c556;
+	margin-right: 81px;
+}
+
+#navbar {
+  margin-top: 30px;
+}
+
+/* #navbar ul {
+	flex: 1;
+	text-align: center;
+	float: none;
+} */
+
+#navbar ul li {
+	display: inline-block;
+	float: none;
+	margin: 0 26px 0 26px;
+}
+
+p#country {
+  margin: 0 auto;
+  color: #fff;
+  font-family: "QuireSansW04-Medium";
+  font-size: 14px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 7px;
+}
+
+p#country .caret {
+	color: rgba(255, 246, 246, 0.64);
+  border-right: 7px solid rgba(0, 0, 0, 0);
+  border-left: 7px solid rgba(0, 0, 0, 0);
+  border-top: 7px dashed;
+}
+
+div.location.pull-right {
+  padding-right: 45px;
+	margin-top: 10px;
+}
+
+.icons img {
+    padding: 0px 15px;
+}
+
+span.green{
+	font-size: 30px;
+	background-color: #1c9a48;
+	color: #fff;
+	padding: 13px;
+}
+
+p.icons{
+	color: #fff;
+	padding-top: 10px;
+	font-family: "QuireSansW04-Medium";
+  font-size: 14px;
+}
+a.navbar-link {
+  font-family: "QuireSansW04-Medium";
+  font-size: 20px;
+  color: #4e4e4e;
+}
+
+#horizontal-bar-footer{
+	height: 10px;
+	background-color: #82c556;
+}
+p.bottom-nav-header{
+	font-family: "QuireSansPro-SemiBold";
+  font-size: 15px;
+  color: #717680;
+}
+
+ul.bottom-nav-list{
+	font-family: "QuireSansW04-Regular";
+  font-size: 15px;
+  list-style-type:none;
+    
+}
+
+.bottom-nav-list li > a{
+	color:#717680;
+}
+
+.bottom-nav.col-md-2 {
+ 	padding: 0;
+}
+
+.first-layer-footer-div.container {
+  padding-top: 50px;
+}
+
+.copyright-caption, .ss-title{
+  font-family: 'QuireSansW04-Medium';
+  font-size: 14px;
+  color: #787878;
+  position: inherit;
+}
+
+.second-layer-footer-div {
+	padding-top: 18px;
+	padding-bottom: 6px;
+}
+
+.icons{
+	text-align: right;
+}
+/* .btn-primary{
+	border-radius: 0px;
+	background-color: #e5f3db;
+	width: 100%;
+	border:0px;
+
+	color: #89c85f;
+	text-align:left;
+	font-family: "QuireSansW04-ExtraLight";
+	font-size: 28px;
+}
+
+.btn-primary:hover{
+	border-radius: 0px;
+	background-color: #e5f3db;
+	width: 100%;
+	border:0px;
+
+	color: #89c85f;
+	text-align:left;
+} */
+
+/* JOB LIST/SEARCH RESULTS */
+
+div#search-results{
+	padding: 50px;
+}
+
+p.subheading{
+	font-family: "QuireSansW04-ExtraLight";
+	font-size: 50px;
+	color: #000;
+
+	text-align: center;
+
+	padding: 30px;
+}
+.joblist-card{
+	padding: 30px;    
+	min-height: 305px;
+	/*max-height: 310px;
+    border: solid .3px rgba(255, 255, 255, 0);*/
+}
+
+.first-card{
+	background-color: #f1f1f1;
+}
+.position p{
+	color: #1c9a48;
+	font-family: "QuireSansW04-Light";
+	font-size: 21px;
+	margin: 0px;
+}
+
+.office p{
+	font-family: "QuireSansW04-Bold";
+	font-size: 13px;
+	margin: 0px;
+}
+
+.posted p{
+	font-family: "QuireSansW04-ExtraLightIt";
+	font-size: 13px;
+}
+
+.description p{
+	font-family: "QuireSansW04-ExtraLight";
+	font-size: 15px;
+}
+
+.learn-more-link a{
+	color: #2ba154;
+	font-family: "QuireSansW04-ExtraLight";
+	font-size: 13px;
+}
+
+.pagination{
+	text-align: center;
+}
+
+.pagination a{
+	padding: 5px;
+	color: #000;
+}
+
+.pagination a.active{
+	background-color: #82c556;
+	color: #fff;
+}
+
+a.pagination-next {
+	color: #2ba154;
+}
+
+
+/* JOB DESCRIPTION */
+
+.col-md-8{
+	padding: 30px;
+}
+
+.col-md-4{
+	padding: 30px;
+	padding-top:60px;
+
+}
+
+.row.job-details .col-md-4{
+
+}
+.desc-heading{
+	color: #3aa760;
+	font-family: "QuireSansW04-ExtraLight";
+	font-size: 50px;
+}
+
+.job-description p {
+	font-family: "QuireSansW04-ExtraLight";
+	font-size: 13px;
+}
+
+p.job-qualifications:before{
+	content: "•";
+    color: #1c9a48;
+
+    padding-right: 30px;
+}
+.col-md-4 p{
+	font-family: "QuireSansW04-Light";
+	font-size: 15px;
+}
+
+.col-md-4 span{
+	font-family: "QuireSansW04-Bold";
+}
+
+.buttons a{
+	border-radius: 0;
+	width: 100%;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+div.buttons{
+	position:absolute;
+	padding-right: 60px;
+}
+
+.row.job-details .col-md-8{
+	border-right: 1px solid #d4d4d4;
+}
+
+#job-details{
+	border-top: 3px solid #1c9a48;
+	border-bottom: 3px solid #d2d2d2;
+}
+
+
+/*RESUME BUILDER */
+#my-resume, .btn.btn-primary.selected{
+	background-color: #1c9a48;
+	padding: 15px;
+	border:0;
+}
+#my-resume p, a.btn.btn-primary.selected{
+	font-family: "QuireSansW04-ExtraLight";
+	font-size: 23px;
+	color: #fff;
+	margin: 0;
+}
+
+
+div.left-panel, div.right-panel{
+	padding: 0px;
+}
+
+/*.left-panel div{
+	padding: 15px;
+	border-bottom: 2px solid #f1f1f1;
+	border-right: 2px solid #f1f1f1;
+}*/
+
+.left-panel a{
+	border-bottom: 2px solid #f1f1f1;
+	border-right: 2px solid #f1f1f1;
+	color: #000;
+	display: block;
+	font-family: "QuireSansW04-Light";
+	font-size: 14px;
+	padding: 15px;
+	text-decoration: none;
+}
+
+.left-panel a:hover {
+  background-color: #e5f3db;
+  color: #1c9a48;
+  font-family: "QuireSansW04-Bold";
+}
+
+a.btn.btn-primary.selected{
+	background-color: #82c556;
+	/*padding-bottom: 25px;*/
+}
+.btn-primary {
+  margin: 2px 0;
+}
+.right-panel .collapse p {
+	color: #1c9a48;
+	font-size: 20px;
+	font-family: "QuireSansW04-ExtraLight";
+	padding: 30px;
+}
+.checkbox label {
+	font-family: "QuireSansW04-Light";
+}
+.chckbox-title,
+.others-checkbox label {
+	font-family: "QuireSansW04-Bold";
+}
+.checkbox {
+  padding-left: 25px;
+}
+.chckbox {
+  height: 192px;
+	padding: 30px;
+	padding-top: 0;
+}
+.chckbox input[type="text"] {
+	border: 0;
+	border-bottom: 1px solid #c4c4c4;
+	margin-left: 25px;
+	font-family: "QuireSansW04-Light";
+	font-size: 13px;
+}
+.chckbox input[type="text"]:focus {
+    outline: 0;
+}
+.no-gutter {
+	padding: 0;
+}
+.others-checkbox {
+    padding-top: 25px;
+}
+
+/*.col-md-12{
+	padding:0px;
+}*/
+div.collapse-card{
+	padding: 15px;
+	border: 0px;
+}
+.resume-sprite {
+	background: url('../img/resume-sprite.png');
+  display: inline-block;
+  margin: auto;
+}
+.pd-icon {
+	background-position: -39px -17px;
+	width: 12px;
+	height: 12px;
+}
+.add-icon {
+  background-position: 0 0;
+  width: 14px;
+  height: 14px;
+}
+.fmd-icon {
+  background-position: 0 -14px;
+  width: 14px;
+  height: 18px;
+}
+.re-icon {
+  background-position: 0 -32px;
+  width: 14px;
+  height: 11px;
+}
+.eb-icon {
+  background-position: 0 -43px;
+  width: 18px;
+  height: 13px;
+}
+.gpl-icon {
+  background-position: 0 14px;
+  width: 14px;
+  height: 14px;
+}
+.er-icon {
+  background-position: -18px 0px;
+  width: 14px;
+  height: 14px;
+}
+.skills-icon {
+  background-position: -18px -13px;
+  width: 15px;
+  height: 15px;
+}
+.lang-icon {
+  background-position: -18px -28px;
+  width: 21px;
+  height: 13px;
+}
+.tca-icon {
+  background-position: -18px -41px;
+  width: 16px;
+  height: 15px;
+}
+.mem-pcrl-icon {
+	background-position: -39px 0;
+	width: 17px;
+	height: 17px;
+}
+.cr-icon {
+  background-position: -18px -56px;
+  width: 16px;
+  height: 14px;
+}
+
+
+/* Inside Page */
+
+/* .call-to-action-thing {
+	min-height: 78vh;
+} */
+
+
+/* Login */
+
+.login .content {
+	background: url(../img/backgroundlogin.jpg) no-repeat;
+	display: block;
+	position: relative;
+	width: 100%;
+	max-width: 1366px;
+	height: 717px;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+span#username, span#password {
+	pointer-events: none;
+	background: #82c556 url("../img/loginsprites.png") no-repeat;
+	left: 0px;
+	padding: 0 23px 0 23px;
+	border-radius: 0;
+  border: 0;
+}
+
+span#username {
+	background-position: 8px 0px;
+}
+
+.login-form .input-group {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.login-form .input-group span {
+	border-radius: 0;
+}
+
+.login-form .input-group input {
+	border-radius: 0;
+	color: #fff;
+	font-family: "QuireSansW04-ExtraLight";
+	font-size: 18px;
+	background-color: #82c556;
+	border: 0;
+	box-shadow: none;
+}
+
+span#password {
+	background-position: 10px -26px;
+}
+
+.login-form {
+	float: right;
+  max-width: 522px;
+  border: 2px solid #fff;
+  margin-right: 90px;
+  margin-top: 8%;
+  padding: 50px;
+}
+
+.login-form .input-group input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+
+.login-form .btn-submit {
+	padding: 8px;
+	background-color: #1c9a48;
+	text-align: center;
+	
+	font-family: "QuireSansW04-ExtraLight";
+    font-size: 18px;
+    color: #fff;
+}
+
+.login-form .btn-submit:hover {
+	padding: 8px;
+	background-color: #1c9a48;
+	
+	text-align: center;    font-family: "QuireSansW04-ExtraLight";
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.login-form .btn-cancel {
+	padding: 8px;
+	background-color: #949494;
+	text-align: center;
+	
+	font-family: "QuireSansW04-ExtraLight";
+    font-size: 18px;
+    color: #fff;
+}
+
+.login-form .btn-cancel:hover {
+	padding: 8px;
+	background-color: #949494;
+	
+	text-align: center;    font-family: "QuireSansW04-ExtraLight";
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+
+.need, .forgot {
+	display: inline-block;
+}
+
+.login-form p, .login-form a {
+	font-family: "QuireSansW04-ExtraLight";
+	font-size: 18px;
+	color: #fff;
+}
+
+.login-form p > a { 	font-family: "QuireSansPro-SemiBold"; }
+
+p.tagline {
+	font-family: "QuireSansW04-ExtraLight";
+	font-size: 70px;
+	color: #fff;
+	line-height: 64px;
+}
+
+/* MEDIA QUERIES */
+
+.default-view {
+   padding: 0 10px;
+   margin-bottom: 20px;
+}
+
+button.navbar-toggle {
+	background-color: #dedede;
+	margin-top: 34px;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #1c9a48;
+}
+
+/* header media queries */
+
+
+@media screen and (max-width: 1199px) {
+	/* job-list */
+	.joblist-card {
+	  padding: 30px;
+	  height: 300px;
+	}
+}
+
+@media screen and (max-width: 1074px) {
+	#navbar ul li {
+		margin: 0 -25px 0 26px;
+	}
+	.login-btn {
+		font-size: 11px;
+    margin-top: 5px;
+   	margin-right: 5px
+	}
+
+	#logo {
+    margin-left: 8px;
+	}
+	#navbar .navbar-nav>li>a  {
+		font-size: 16px;
+	}
+
+	.login-form {
+		    margin: 0 auto;
+    display: block;
+    margin-top: 8%;
+    float: none;
+	}
+}/*End max-width 1024px*/
+
+
+@media screen and (max-width: 991px) { 
+	span.green {
+		display: inline-block;
+		padding: 13px 20px;
+	}
+
+	/* job-desc */
+
+	.row.job-details .col-md-8 {
+    border-right: 0;
+    border-bottom: 1px solid #d4d4d4;
+	}
+	div.buttons {
+	  width: 270px;
+	  padding-right: 0;
+	  position: relative;
+	  margin: auto;
+	}
+
+	.pagination {
+		display: block;
+	}
+
+	/*footer*/
+	.bottom-nav.col-md-2 {
+	  width: 33.3%;
+	  float: left;
+	}
+
+	
+
+}/*End max-width 991px*/
+
+
+
+@media screen and (max-width: 768px) {
+	#logo {margin-left: 8px; }
+	p.icons img { padding: 0 !important; }
+
+
+	#navbar {margin-top: 0px; overflow: hidden;}
+	#navbar ul li { display: block; }
+	#navbar .navbar-nav>li>a {
+		border-bottom: 1px solid #ddd;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		font-size: 16px;
+	}
+
+	.login-btn {
+		float: left!important;
+    margin-left: 27px;
+        margin-right: 0;
+    margin-bottom: 17px;
+    margin-top: 10px;
+        font-size: 10px;
+	}
+
+	.search-block {
+		position: relative; 
+		background: url(../img/bgsearch.jpg) #fff no-repeat;
+		background-size: cover;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding:15px;
+   /* display:none;
+    padding: 80px; */
+	}
+
+	.search-block > p {
+		font-size: 21px;
+		color: #fff;
+		text-align: center;
+		/*margin-top: -24.9%;*/
+	}
+
+	.search-block input#searchjob, .search-block input {
+		width: 100%;
+		background-position: right 2px;
+	}
+	.search-block select {
+		width: 100%;
+		margin-left: 0;
+	}
+/*	.banner.row .col-md-12 {
+		display: none;
+	} */
+
+
+
+
+} /*End max-width 768px*/
+
+
+@media screen and (max-width: 719px) {
+
+	/* footer */
+	.second-layer-footer-div .bottom-nav {
+		width: 100%;
+		text-align: center;	
+	}
+	.icons {
+		text-align: center;
+	}
+}/*End Max width 736px*/
+
+@media screen and (max-width: 667px) {
+	p.subheading {
+	  font-size: 35px;
+	  padding: 5px;
+	}
+	.desc-heading {
+	  font-size: 30px;
+	}
+	.row.job-details .col-md-4 {
+		padding: 25px;
+	}
+}/*End max width 667px*/
+
+@media screen and (max-width: 657px) {
+	.joblist-card {
+		width: 100%;
+	  padding: 30px;
+	  height: auto;
+	}
+	/* footer */
+	.bottom-nav.col-md-2 {
+	  width: 50%;
+	  float: left;
+	}
+	.bottom-nav.col-md-2:nth-of-type(-n+4) {
+	  height: 165px;
+	}
+}/*End max width 657px*/
+@media screen and (max-width: 590px) {
+	div.location.pull-right  {
+	    padding: 0 !important;
+    float: right !important;
+    display: block;
+    margin-top: 11px !important;
+    /* margin-left: 2px; */
+	}
+	p#country {
+		display: none !important;
+	}
+	.icons.pull-right {
+	    text-align: right;
+    float: left !important;
+    margin-left: 5px;
+    display: block;
+	}
+
+	p.icons img { padding: 0 !important; }
+
+	.login-form {
+		border: 0px;
+	}
+
+	.need, .forgot {
+		float: none !important;
+		display: block;
+	}
+	p.tagline {
+		font-size: 50px;
+    line-height: 47px;
+	}
+
+} /*End max-width 590px*/
+
+@media screen and (max-width: 568px) {
+	span.green {
+		display: inline-block;
+		font-size: 17px;
+		font-size: 17px;
+	}
+	p.subheading {
+		font-size: 30px;
+	}
+}/*End max width 568px*/
+
+@media screen and (max-width: 557px) {
+	p.subheading {
+		padding: 0 0 30px 0;
+	}
+	#search-results p.subheading {
+		padding: 0;
+	}
+	.row.job-details .col-md-8 {
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	p.subheading {
+	  font-size: 25px;
+    margin-bottom: 30px;
+	}
+	span.green {
+	  padding: 7px 20px;
+	}
+	div#search-results {
+		padding: 25px;
+	}
+	div.buttons {
+    width: 100%;
+  }
+
+  /* footer */
+  .bottom-nav.col-md-2 {
+	  width: 100%;
+	  text-align:center;
+	  height: auto;
+	}
+	.bottom-nav.col-md-2 ul {
+		padding-left: 0;
+	}
+
+}/*End max width 414px*/
+
+
+@media screen and (max-width: 375px) {
+	p.subheading {
+	  font-size: 25px;
+	}
+	.desc-heading {
+	  font-size: 23px;
+	}
+	.job-details {
+	  display: block;
+	}
+
+	/* footer */
+
+	.ss-title {
+		display: block;
+	}
+}/*End max width 375px*/
+
+
+@media screen and (max-width: 320px) {
+
+	/*footer*/
+	p.subheading {
+	  font-size: 22px;
+	}
+	span.green {
+		font-size: 13px;
+	}
+
+}/*End max width 320px
+
+
+.bs-wizard {margin-top: 40px;}
+
+/*Form Wizard*/
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0; margin: -30px 0px 30px 0px;}  
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #82C556; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;} 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #1C9A48; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #ADACAC;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #DDDDDD;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+/*END Form Wizard*/
