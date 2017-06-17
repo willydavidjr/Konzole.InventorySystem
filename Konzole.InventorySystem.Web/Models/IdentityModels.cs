@@ -21,6 +21,9 @@ namespace Konzole.InventorySystem.Web.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<Permission> Permissions { get; set; }
         public ApplicationDbContext()
             : base("InventoryConnection", throwIfV1Schema: false)
         {
