@@ -49,8 +49,11 @@ namespace Konzole.InventorySystem.Web.Controllers
 
             try
             {
+                //string strPass = KonzoleUtilities.KonzoleCryptor.Decrypt(_context.Users.Where(x => x.Password == model.Password).Select(x=>x.Password);
                 User user = _context.Users.FirstOrDefault(x => x.UserName == model.UserName);
-                if (user != null)
+
+                string strPass = KonzoleUtilities.KonzoleCryptor.Decrypt(user.Password);
+                if (user != null && strPass == model.Password)
                     return RedirectToLocal(returnUrl);
             }
             catch (Exception ex)

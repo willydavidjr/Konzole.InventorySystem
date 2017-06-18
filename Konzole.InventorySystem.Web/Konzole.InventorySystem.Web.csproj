@@ -54,6 +54,10 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="KonzoleCryptor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\KonzoleCryptor\KonzoleCryptor\bin\Release\KonzoleCryptor.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
     </Reference>
@@ -249,6 +253,26 @@
     <Compile Include="Migrations\201706171514554_AddAdminInUser.Designer.cs">
       <DependentUpon>201706171514554_AddAdminInUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706180240178_UpdateAdminUserPassword.cs" />
+    <Compile Include="Migrations\201706180240178_UpdateAdminUserPassword.Designer.cs">
+      <DependentUpon>201706180240178_UpdateAdminUserPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706180244163_UpdateAdminUserPassword1.cs" />
+    <Compile Include="Migrations\201706180244163_UpdateAdminUserPassword1.Designer.cs">
+      <DependentUpon>201706180244163_UpdateAdminUserPassword1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706180247023_TruncateTabeUsers.cs" />
+    <Compile Include="Migrations\201706180247023_TruncateTabeUsers.Designer.cs">
+      <DependentUpon>201706180247023_TruncateTabeUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706180251256_UpdateTableUsers.cs" />
+    <Compile Include="Migrations\201706180251256_UpdateTableUsers.Designer.cs">
+      <DependentUpon>201706180251256_UpdateTableUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706180254019_UpdateTableUsers1.cs" />
+    <Compile Include="Migrations\201706180254019_UpdateTableUsers1.Designer.cs">
+      <DependentUpon>201706180254019_UpdateTableUsers1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -421,6 +445,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706171514554_AddAdminInUser.resx">
       <DependentUpon>201706171514554_AddAdminInUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706180240178_UpdateAdminUserPassword.resx">
+      <DependentUpon>201706180240178_UpdateAdminUserPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706180244163_UpdateAdminUserPassword1.resx">
+      <DependentUpon>201706180244163_UpdateAdminUserPassword1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706180247023_TruncateTabeUsers.resx">
+      <DependentUpon>201706180247023_TruncateTabeUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706180251256_UpdateTableUsers.resx">
+      <DependentUpon>201706180251256_UpdateTableUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706180254019_UpdateTableUsers1.resx">
+      <DependentUpon>201706180254019_UpdateTableUsers1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
