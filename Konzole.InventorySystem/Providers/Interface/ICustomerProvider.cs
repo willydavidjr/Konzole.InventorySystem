@@ -12,5 +12,6 @@ namespace Konzole.InventorySystem.Providers.Interface
         List<Customer> GetList();
         bool Save(Customer customer);
         bool RemoveById(int id);
+
     }
 }
